@@ -1,0 +1,68 @@
+# Git files
+.git
+.gitignore
+.gitattributes
+
+# Python cache
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info
+dist
+build
+
+# Jupyter checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDE files
+.vscode
+.idea
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Documentation build artifacts
+docs/_build
+docs/.doctrees
+
+# Test coverage
+.coverage
+.pytest_cache
+htmlcov/
+
+# Local data files (if any)
+data/
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+
+# Model checkpoints (usually large)
+checkpoints/
+models/*.pt
+models/*.pth
+*.ckpt
+
+# Logs
+logs/
+*.log
+
+# Environment files
+.env
+.env.local
+
+# Docker files (to avoid recursion)
+Dockerfile*
+docker-compose*.yml
